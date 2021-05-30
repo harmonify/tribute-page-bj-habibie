@@ -67,7 +67,7 @@
 #tribute-link{
 	font-weight: 800;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 576px){
 	#tribute-info{
 		width: 100%;
 		margin-left: -1rem;

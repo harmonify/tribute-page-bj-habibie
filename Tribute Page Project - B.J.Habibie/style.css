@@ -1,0 +1,78 @@
+#main {
+	background-color: #eee;
+	border-radius: 1%;
+	padding: 1.5em;
+}
+#title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 0.75em;
+	line-height: 1.75em;
+}
+#title h1{
+	font-size: 2em;
+}
+#title p{
+	font-size: 1.25em;
+}
+#img-div {
+	background-color: #fff;
+  	width: 98%;
+  	height: auto;
+  	margin: auto;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+}
+#image {
+	margin-top: 2%;
+	max-width: 50%;
+	height: auto;
+}
+#img-caption {
+  	color: #333;
+}
+#tribute-info {
+  	width: 70%;
+  	height: auto;
+  	margin: 1em auto;
+  	line-height: 1.5em;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+#tribute-info p{
+	width: 100%;
+	color: #333;
+	margin: auto;
+	justify-content: center;
+}
+#tribute-quote{
+	font-size: calc(1vw + 0.8em);
+  	line-height: calc(2vh + 1em);
+}
+.center-txt{
+	text-align: center;
+}
+.justify-txt{
+	text-align: justify;
+}
+#tribute-footer{
+	font-size: 1.25em;
+	margin: 1.5em auto 1em auto;
+	text-align: center;
+}
+#tribute-link{
+	font-weight: 800;
+}
+@media only screen and (max-width: 480px){
+	#tribute-info{
+		width: 100%;
+		margin-left: -1rem;
+	}
+	#tribute-quote{
+		padding-left: 1rem;
+	}
+}
